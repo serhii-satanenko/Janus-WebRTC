@@ -1,0 +1,22 @@
+FROM serhiisatanenko/janus-gateway:0.1
+
+RUN apt -y update && \
+	apt install -y \
+  iproute2 \
+  procps \ 
+  curl
+
+ENV BUILD_DATE=${BUILD_DATE}
+ENV GIT_BRANCH=${GIT_BRANCH}
+ENV GIT_COMMIT=${GIT_COMMIT}
+ENV VERSION=${VERSION}
+
+EXPOSE 10000-10200/udp
+EXPOSE 8188
+EXPOSE 8088
+EXPOSE 8089
+EXPOSE 8889
+EXPOSE 8000
+EXPOSE 7088
+EXPOSE 7089
+EXPOSE 7188
