@@ -1,4 +1,4 @@
-Janus WebRTC Server
+<!-- Janus WebRTC Server
 ===================
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](COPYING)
 ![janus-ci](https://github.com/meetecho/janus-gateway/workflows/janus-ci/badge.svg)
@@ -349,4 +349,4 @@ Janus is thoroughly documented. You can find the current documentation, automati
 ## Help us!
 Any thought, feedback or (hopefully not!) insult is welcome!
 
-Developed by [@meetecho](https://github.com/meetecho)
+Developed by [@meetecho](https://github.com/meetecho) -->
